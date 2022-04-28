@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    position:relative;
+}
+   
+/* nav {
+    width: 100%;
+    background-color: #000;
+    height: 15vh;
+} */
+
+.header {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    height: 100px;
+    top:0px;
+    z-index:5;
+  }
+  
+  .icon {
+    margin-left: 50px;
+    width: 8%;
+    margin:2px;
+    border-radius: 5px;
+  }
+  
+  .links {
+    color: white;
+    position:relative;
+    left:400px;
+    margin-left:50px;
+    text-decoration: none;
+  }
+
+.brand {
+    margin-left: 5%;
+    line-height: 80px;
+}
+   
+.brand a {
+    color: white;
+    font-size: 30px;
+}
+nav ul {
+    float: right;
+    margin-right: 5%;
+    background-color: #000;
+}
+
+nav ul li  {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.form-register {
+    width: 450px;
+    margin: center;
+    color: rgb(0, 0, 0);
+    box-shadow: #000;
+    text-align: center;
+    background-color: rgb(222, 211, 237);
+    position:relative;
+    top:-10px;
+    left:130px;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    padding:25px;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #484646;
+}
+
+.controls {
+    width: 250px;
+    background: #e0e1e2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+    font-family: 'Arial';
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    
+
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100px;
+    background: #000000;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16x;
+    border-radius: 6px;
+    width: 170px;
+    height: 40px;
+}
+.general {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+  
+ 
+}
+
+.Novedades {
+    width: 350px;
+    border-radius: 10px;
+    position:relative;
+    top:70px;
+    align-items:center;
+}
+
+.img_body {
+    width:40%;
+    position:relative;
+    top:0px;
+   
+}
+
+.links:hover{
+  
+    background-color: rgb(222, 211, 237);
+    border-radius: 5px;
+  
+  }
+  
+  
+/* ESTILOS FOOTER */
+footer{
+    background:black;
+    color:white;
+    position:relative;
+    padding-left:20px;
+    bottom:0px;
+    display:flex;
+    height:160px;
+    margin: 0 auto;
+    clear:both;
+    width:100%;
+    flex-direction:row;
+    align-items: center;
+  }
+  
+  .social-icons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:80px;
+    margin:3px;
+  }
+  
+  .empresa{
+  position:relative;
+  top:0px;
+  left:0px;
+  }
+  
+  .contacto{
+  position:relative;
+  top:0px;
+  left:400px;
+  
+  
+  }

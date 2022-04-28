@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  position:relative;
+ 
+}
+
+/* ESTILOS DEL HEADER */
+/* HEADER: Usando flexbox */
+.header {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  height: 100px;
+  position:fixed;
+  top:0px;
+  z-index:5;
+ 
+}
+
+.icon {
+margin-left: 50px;
+width: 7.5%;
+margin:2px;
+
+}
+
+.links {
+color: white;
+position:relative;
+left:400px;
+margin-left:50px;
+text-decoration: none;
+}
+
+.inicio{
+  position: absolute;
+  top: 40px;
+  left:700px;
+  color:black;
+  display:flex;
+  flex-wrap:nowrap;
+  margin-right:30px;
+}
+
+.registro{
+  position: absolute;
+  top: 40px;
+  left:800px;
+  color:black;
+
+}
+
+.titulo{
+ 
+  position:relative;
+  top:100px;
+  height:50px;
+  width:auto;
+  z-index:10;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container{
+ 
+    width:100%;
+    height:100%;
+    position:relative;
+    top:115px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom:25px;
+ 
+}
+
+
+.item{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content:space-around;
+  width:450px;
+  height:320px;
+  margin:20px;
+  position:relative;
+}
+ 
+img{
+  width:100%;
+  border-radius:5px;
+  }
+  
+   
+button{
+  background:black;
+  color:white; 
+  position:absolute;
+  bottom:10px;
+  width: 120px;
+  height:40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* .boton1{
+  background:black;
+  color:white; 
+  position:absolute;
+  width: 120px;
+  height:40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.boton2{
+  background:black;
+  color:white; 
+  position:absolute;
+  bottom:150px; 
+  width: 120px;
+  height:40px;
+  border: 1px solid black;
+  border-radius: 10px;
+} */
+
+
+footer{
+  background:black;
+  color:white;
+  padding-left:20px;
+  display:flex;
+  /* justify-content: center;
+  align-items: center; */
+  height:180px;
+  margin:110px auto;
+  clear:both;
+  width:100%;
+  flex-direction:row;
+  align-items: center;
+  position:relative;
+  bottom:-110px;
+}
+
+.social-icons{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  width:80px;
+  margin:3px;
+}
+
+.empresa{
+position:relative;
+top:0px;
+left:0px;
+}
+
+.contacto{
+position:relative;
+top:0px;
+left:400px;
+
+
+}
+
+.info {
+text-align: center;
+}
+
+/* .container1 {
+text-align: right;
+} */
+
+.container1 {
+margin-left: 60px;
+float: left;
+color: white;
+}
+.container2 {
+background-color: #000;
+width: 100%;
+height: 430px;
+}
+.container3 {
+margin-right: 60px;
+float: right;
+color: white;
+}
+
+a:visited  {
+  color: white;
+  font-weight: bold;
+  
+}
+
+.links:hover{
+
+  background-color: rgb(222, 211, 237);
+  border-radius: 5px;
+
+}

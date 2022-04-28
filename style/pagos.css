@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  /* ESTILOS DEL HEADER */
+  /* HEADER: Usando flexbox */
+  .header {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    height: 100px;
+    position:fixed;
+    top:0px;
+    z-index:5;
+   
+  }
+
+
+
+.icon {
+  margin-left: 50px;
+  width: 8%;
+  margin:2px;
+}
+
+
+
+.links {
+  color: white;
+  position:relative;
+  left:300px;
+  margin-left:50px;
+}
+
+.inicio{
+    position: absolute;
+    top: 40px;
+    left:700px;
+    color:black;
+    display:flex;
+    flex-wrap:nowrap;
+    margin-right:30px;
+  }
+
+.registro{
+    position: absolute;
+    top: 40px;
+    left:800px;
+    color:black;
+
+  }
+
+  body{
+    position:relative;
+  
+
+   
+  }
+
+  .titulo{
+   
+    position:relative;
+    top:100px;
+    height:50px;
+    width:auto;
+    z-index:10;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .container-productos{
+    background: rgb(227, 227, 227);
+    width:50%;
+    height:500px;
+    position:relative;
+    top:120px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: center;
+  
+}
+
+.tarjeta-producto{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding:10px;
+  
+  position:relative;
+}
+
+  .item{
+    background-color: white;
+    width:30%;
+    position:relative;
+  }
+
+  .info-producto{
+    font-size:17px;
+    font-weight: bold;
+    background-color: white;
+    height:140px;
+    width:350px;
+    position:relative;
+    border-radius: 5px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .contador{
+    width:80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+
+  .numero{
+    width:25px;
+    background:black;
+    border-radius:5px;
+    text-align: center;
+    color:white;
+  }
+
+  img{
+    width:100%;
+    border-radius:5px;
+    }
+
+  .container-pagos{
+      
+      width:50%;
+      height:500px;
+      position:absolute;
+      top:170px;
+      left:720px;
+      display:flex;
+      justify-content:center;
+      align-content:center;
+    }
+      
+  .formulario{
+    width:300px;
+    height:440px;
+    background:black;
+    position:absolute;
+    top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    padding:20px;
+    border-radius:5px;
+    color:white;
+    
+  }
+
+  .box{
+    margin:5px;
+    display:flex;
+    flex-direction:column;
+  }
+
+  input{
+    width:250px;
+    height:30px;
+    text-align: center;
+    margin:5px;
+    border-radius: 5px;
+  }
+
+  button{
+    background:rgb(77, 77, 228);
+    border: 1px solid rgb(77, 77, 228);
+    color:white; 
+    position:absolute;
+    top:410px; 
+    width: 120px;
+    height:40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  
+
+  
+  footer{
+    background:black;
+    color:white;
+    position:relative;
+    padding:10px;
+    bottom:-100px;
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+    height:180px;
+    margin:100px auto;
+    clear:both;
+    width:100%;
+    flex-direction:row;
+    align-items: center;
+  }
+
+  .social-icons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:80px;
+    margin:3px;
+  }
+
+.empresa{
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+.contacto{
+  position:relative;
+  top:0px;
+  left:500px;
+
+ 
+ 
+}
+
+.links:hover{
+  color:black;
+  background-color: rgb(222, 211, 237);
+  border-radius: 5px;
+  
+
+}
+
+
